@@ -69,7 +69,7 @@ text-decoration:none;
 
 .hero{
 
-height:120vh;
+height:130vh;
 
 position:relative;
 
@@ -148,4 +148,10 @@ margin-bottom:40px;
 .gallery img {
   width: 100%;
   border-radius: 8px;
+}
+
+.acting-still img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
