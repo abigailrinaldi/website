@@ -155,3 +155,27 @@ margin-bottom:40px;
   height:100%;
   object-fit:cover;
 }
+
+
+@media (max-width: 768px {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+  }
+  .hero img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+}
