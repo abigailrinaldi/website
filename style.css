@@ -157,13 +157,19 @@ margin-bottom:40px;
 }
 
 
-@media (max-width: 768px {
+@media (max-width: 768px) {
   nav {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 15px;
     padding: 15px;
   }
+  
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
   nav a {
     font-size: 14px;
   }
@@ -171,20 +177,23 @@ margin-bottom:40px;
   .hero {
     height: auto;
     min-height: 100vh;
-    overflow: hidden;
   }
+  
   .hero img {
     height: auto;
-    aspect-ratio: auto;
+    width: 100%;
     object-fit: contain;
   }
 
   .hero-text {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    text-align: center;
-    padding: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 45px;
   }
 }
