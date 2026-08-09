@@ -203,3 +203,13 @@ margin-bottom:40px;
     letter-spacing: 3px;
   }
 }
+
+
+.intro-video {
+  max-width: 800px;
+  margin: 40px auto;
+}
+.intro-video video {
+  width: 100%;
+  display: block;
+}
