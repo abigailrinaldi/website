@@ -150,8 +150,8 @@ h3 {
 .hero {
   position: relative;
 
-  width: 100%;
-  height: 155vh;
+  width: 90%;
+  height: 145vh;
 
   min-height: 850px;
 
@@ -223,7 +223,7 @@ h3 {
 .hero p {
   margin-top: 20px;
 
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 400;
 
   letter-spacing: 0.35em;
@@ -772,7 +772,7 @@ h3 {
   }
 
   .profile-links {
-    gap: 12px;
+    gap: 10px;
 
     margin-top: 28px;
 
